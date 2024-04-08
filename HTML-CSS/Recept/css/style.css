@@ -7,13 +7,13 @@
     line-height: 32px;
 }
 
-ul.ingredients li {
+ul li {
     font-size: 20px;
     line-height: 26px;
     margin: 10px;
 }
 
-ol.cookSteps li {
+ol li {
     font-size: 20px;
     line-height: 26px;
     margin: 20px;
