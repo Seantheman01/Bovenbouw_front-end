@@ -1,8 +1,8 @@
-div {
-    margin: auto;
+.space {
+    margin: 40px;
 }
 
-p {
+.text {
     font-size: 24px;
     line-height: 32px;
 }
@@ -10,6 +10,7 @@ p {
 li {
     font-size: 20px;
     line-height: 26px;
+    margin: 10px;
 }
 
 h1 {
@@ -20,4 +21,9 @@ h1 {
 h2 {
     font-size: 32px;
     line-height: 32px;
+}
+
+.tip {
+    background-color: #def6ed;
+    border-radius: 4px;
 }
