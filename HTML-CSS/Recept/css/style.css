@@ -1,4 +1,11 @@
 div {
     margin: auto;
-    float: right;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 36px;
 }
