@@ -1,3 +1,7 @@
+* {
+    font-family: "Roboto";
+}
+
 .page {
     margin: auto;
     max-width: 800px;
