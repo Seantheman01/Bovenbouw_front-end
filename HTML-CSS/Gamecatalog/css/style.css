@@ -1,0 +1,11 @@
+.menu {
+    font-size: 20px;
+}
+
+.menu a:hover {
+    color: black;
+}
+
+.menu a.active {
+    color: black;
+  }
