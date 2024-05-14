@@ -9,6 +9,8 @@ function fibonacci(n) {
         n1 = n2;
         n2 = n3;
     }
+
+    return n3;
 }
 
 fibonacci(20);
