@@ -1,3 +1,8 @@
+.menu {
+    border-style: solid;
+    margin: 10px;
+}
+
 .menu a:hover {
     color: black;
 }
@@ -23,6 +28,12 @@
 
 .flex-container-second > p {
     border-style: solid;
-    margin: 10px;
+    margin: 5px;
     padding: 5px;
+}
+
+.game_page {
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
 }
