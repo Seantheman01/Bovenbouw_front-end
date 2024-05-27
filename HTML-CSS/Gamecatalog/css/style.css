@@ -32,7 +32,28 @@
     padding: 5px;
 }
 
-.game_info {
+.flex-container-third {
+    display: flex;
+    margin: 10px;
+}
+
+.game_page {
+    border-style: solid;
+    padding: 10px;
+    flex: 2;
+}
+
+.genre {
+    border-style: solid;
+    padding: 10px;
+    flex: 1;
+}
+
+.text {
+    font-weight: bold;
+}
+
+.info {
     border-style: solid;
     margin: 10px;
     padding: 10px;
