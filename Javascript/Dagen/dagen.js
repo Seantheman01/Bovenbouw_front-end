@@ -18,6 +18,12 @@ for (let a in andersom) {
     document.getElementById("alleDagenAndersom").innerHTML += dagen[a] + "<br>";
 }
 
-for (let b of Array(5).keys()) {
-    document.getElementById("werkDagen").innerHTML += dagen[b] + "<br>";
+const werkAndersom = andersom.slice(-5);
+for (let b in werkAndersom) {
+    document.getElementById("werkDagenAndersom").innerHTML += werkAndersom[b] + "<br>";
+}
+
+const weekendAndersom = andersom.slice(-2);
+for (let c in weekendAndersom) {
+    document.getElementById("weekendDagenAndersom").innerHTML += dagen[c] + "<br>";
 }
