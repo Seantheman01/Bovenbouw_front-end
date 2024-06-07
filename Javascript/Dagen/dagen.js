@@ -23,7 +23,7 @@ for (let b in werkAndersom) {
     document.getElementById("werkDagenAndersom").innerHTML += werkAndersom[b] + "<br>";
 }
 
-const weekendAndersom = dagen.slice(-2);
+const weekendAndersom = andersom.slice(-2);
 for (let c in weekendAndersom) {
     document.getElementById("weekendDagenAndersom").innerHTML += dagen[c] + "<br>";
 }
