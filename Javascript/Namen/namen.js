@@ -4,13 +4,20 @@ while (true) {
 
     if (namenAantal >= 3) {
         for (let i = 0; i < namenAantal; i++) {
-            let namen = prompt("Voer een naam in: ");
-            namenLijst.push(namen);
+            while (true) {
+                let namen = prompt("Voer een naam in: ");
+                if (namen != "") {
+                    namenLijst.push(namen);
+                    break;
+                } else {
+                    window.alert("U moet een naam invoeren.");
+                }
+            }
         }
         window.alert("De ingevoerde namen zijn: " + namenLijst);
         break;
 
     } else {
-        window.alert("U moet minimaal 3 namen invoeren.");
+        window.alert("Het moeten minimaal 3 namen zijn.");
     }
 }
