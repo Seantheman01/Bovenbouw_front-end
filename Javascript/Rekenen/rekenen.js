@@ -27,7 +27,7 @@ function vermenigvuldigen(arrayEen, arrayTwee) {
         document.write(arrayEen[i] + " x " + arrayTwee[i] + " = " + som + "<br>");
     }
 }
-document.write("<h2>Aftrekken van de twee arrays zijn:</h2>");
+document.write("<h2>Vermenigvuldigen van de twee arrays zijn:</h2>");
 vermenigvuldigen(arrayTwee, arrayEen);
 
 
@@ -37,5 +37,5 @@ function delen(arrayTwee, arrayEen) {
         document.write(arrayTwee[i] + " : " + arrayEen[i] + " = " + som + "<br>");
     }
 }
-document.write("<h2>Aftrekken van de twee arrays zijn:</h2>");
+document.write("<h2>Delen van de twee arrays zijn:</h2>");
 delen(arrayTwee, arrayEen);
