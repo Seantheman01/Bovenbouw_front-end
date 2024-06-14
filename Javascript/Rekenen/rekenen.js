@@ -9,3 +9,13 @@ function optellen(arrayEen, arrayTwee) {
 }
 document.write("<h2>Optellen van de twee arrays zijn:</h2>");
 optellen(arrayEen, arrayTwee);
+
+
+function aftrekken(arrayTwee, arrayEen) {
+    for (let y = 0; y < arrayEen.length; y++) {
+        let som2 = arrayTwee[y] - arrayEen[y];
+        document.write(arrayTwee[y] + " - " + arrayEen[y] + " = " + som2 + "<br>");
+    }
+}
+document.write("<h2>Aftrekken van de twee arrays zijn:</h2>");
+aftrekken(arrayTwee, arrayEen);
