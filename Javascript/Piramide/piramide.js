@@ -6,7 +6,5 @@ for (let i = 0; i < getallen.length; i++){
     for (let x = 0; x <= i; x++){
         document.write(x);
     }
-    piramide = getallen.slice(0,0);
-    piramide += "<br>";
-    document.write(piramide);
+    document.write(getallen.slice(0,0) + "<br>");
 }
