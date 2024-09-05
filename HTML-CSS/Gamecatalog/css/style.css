@@ -4,11 +4,8 @@
     margin-bottom: 30px;
 }
 
-.menu a:hover {
-    color: black;
-}
-
-.menu a.active {
+.menu a {
+    text-decoration: none;
     color: black;
 }
 
