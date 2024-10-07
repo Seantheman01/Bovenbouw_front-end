@@ -13,7 +13,7 @@ function aantal_bolletjes() {
         else if (aantal > 8) {
             alert("Sorry, zulke grote bakken hebben we niet.");
         }else {
-            alert("Sorry dat snap ik niet...");
+            alert("Sorry, dat snap ik niet...");
         }
     }
 }
