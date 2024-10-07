@@ -18,4 +18,16 @@ function aantal_bolletjes() {
     }
 }
 
+function hoorn_of_bak() {
+    while (true) {
+        let soort = prompt("Wilt u deze " + aantal + " bolletje(s) in een hoorntje of een bakje? ");
+        if (soort == "hoorntje" || soort == "bakje") {
+            return soort
+        }else {
+            print("Sorry, dat snap ik niet...")
+        }
+    }
+}
+
 aantal_bolletjes();
+hoorn_of_bak();
