@@ -10,6 +10,11 @@ function aantal_bolletjes() {
             alert("Dan krijgt u van mij een bakje met " + aantal + " bolletjes.");
             return aantal;
         }
+        else if (aantal > 8) {
+            alert("Sorry, zulke grote bakken hebben we niet.");
+        }else {
+            alert("Sorry dat snap ik niet...");
+        }
     }
 }
 
