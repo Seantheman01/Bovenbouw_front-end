@@ -18,13 +18,26 @@ function aantal_bolletjes() {
     }
 }
 
-function hoorn_of_bak() {
+function hoorn_of_bak(aantal) {
     while (true) {
         let soort = prompt("Wilt u deze " + aantal + " bolletje(s) in een hoorntje of een bakje?");
         if (soort == "hoorntje" || soort == "bakje") {
             return soort
         }else {
             print("Sorry, dat snap ik niet...")
+        }
+    }
+}
+
+function meer_bestellen(soort, aantal) {
+    while (true) {
+        alert("Hier is uw " + soort + " met " + aantal + " bolletje(s).");
+        let opnieuw = prompt("Wilt u nog meer bestellen?");
+        if (opnieuw == "ja") {
+            return opnieuw
+        }
+        else if (opnieuw == "nee") {
+            alert("Bedankt en tot ziens!");
         }
     }
 }
