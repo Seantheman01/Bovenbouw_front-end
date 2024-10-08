@@ -6,13 +6,11 @@ for (let i = 0; i < namen.length; i++) {
     var button = document.createElement("button");
 
     button.innerText = namen[i];
-    button.addEventListener("click", function() {
-        buttonClicked(namen[i]);
-    });
+    button.addEventListener("click", buttonClicked);
 
     container.appendChild(button);
 }
 
-function buttonClicked(name) {
-    alert(name + " button clicked");
+function buttonClicked(e) {
+    alert(e.target.innerText + " button clicked");
 }
