@@ -13,4 +13,5 @@ for (let i = 0; i < namen.length; i++) {
 
 function buttonClicked(e) {
     alert(e.target.innerText + " button clicked");
+    e.target.remove();
 }
