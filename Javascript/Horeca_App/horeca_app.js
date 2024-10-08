@@ -48,9 +48,9 @@ function meer_bestellen(soort, aantal) {
 while (true) {
     aantal = aantal_bolletjes();
     if (aantal >= 4) {
-        soort = "bakje"
+        soort = "bakje";
     }else {
-        soort = hoorn_of_bak(aantal)
+        soort = hoorn_of_bak(aantal);
     }
     opnieuw = meer_bestellen(soort, aantal);
     if (!opnieuw) {
