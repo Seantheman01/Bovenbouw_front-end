@@ -22,7 +22,7 @@ function hoorn_of_bak(aantal) {
     while (true) {
         let soort = prompt("Wilt u deze " + aantal + " bolletje(s) in een hoorntje of een bakje?");
         if (soort == "hoorntje" || soort == "bakje") {
-            return soort
+            return soort;
         }else {
             print("Sorry, dat snap ik niet...");
         }
@@ -34,15 +34,26 @@ function meer_bestellen(soort, aantal) {
         alert("Hier is uw " + soort + " met " + aantal + " bolletje(s).");
         let opnieuw = prompt("Wilt u nog meer bestellen?");
         if (opnieuw == "ja") {
-            return opnieuw
+            return opnieuw;
         }
         else if (opnieuw == "nee") {
             alert("Bedankt en tot ziens!");
+            break;
         }else {
             print("Sorry, dat snap ik niet...");
         }
     }
 }
 
-aantal_bolletjes();
-hoorn_of_bak();
+while (true) {
+    aantal = aantal_bolletjes();
+    if (aantal >= 4) {
+        soort = "bakje"
+    }else {
+        soort = hoorn_of_bak(aantal)
+    }
+    opnieuw = meer_bestellen(soort, aantal);
+    if (!opnieuw) {
+        break;
+    }
+}
