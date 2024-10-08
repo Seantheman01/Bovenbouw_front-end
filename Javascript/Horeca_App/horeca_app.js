@@ -1,3 +1,5 @@
+var ijs = {bolletjes:0, hoorntjes:0, bakjes:0};
+
 alert("Welkom bij Papi Gelato. Je mag alle smaken kiezen zolang het maar vanille ijs is.");
 
 function aantal_bolletjes() {
