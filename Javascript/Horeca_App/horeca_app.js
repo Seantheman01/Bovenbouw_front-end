@@ -24,7 +24,7 @@ function hoorn_of_bak(aantal) {
         if (soort == "hoorntje" || soort == "bakje") {
             return soort
         }else {
-            print("Sorry, dat snap ik niet...")
+            print("Sorry, dat snap ik niet...");
         }
     }
 }
@@ -38,6 +38,8 @@ function meer_bestellen(soort, aantal) {
         }
         else if (opnieuw == "nee") {
             alert("Bedankt en tot ziens!");
+        }else {
+            print("Sorry, dat snap ik niet...");
         }
     }
 }
