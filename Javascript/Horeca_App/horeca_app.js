@@ -7,29 +7,32 @@ function aantal_bolletjes() {
         let aantal = parseInt(prompt("Hoeveel bolletjes wilt u?"));
         if (aantal >= 1 && aantal <= 3) {
             ijs.bolletjes += aantal;
-            return aantal;
         }
         else if (aantal >= 4 && aantal <= 8) {
             alert("Dan krijgt u van mij een bakje met " + aantal + " bolletjes.");
             ijs.bolletjes += aantal;
-            return aantal;
         }
         else if (aantal > 8) {
             alert("Sorry, zulke grote bakken hebben we niet.");
         }else {
             alert("Sorry, dat snap ik niet...");
         }
+    return aantal;
     }
 }
 
 function hoorn_of_bak(aantal) {
     while (true) {
         let soort = prompt("Wilt u deze " + aantal + " bolletje(s) in een hoorntje of een bakje?");
-        if (soort == "hoorntje" || soort == "bakje") {
-            return soort;
+        if (soort == "hoorntje") {
+            ijs.hoorntjes++;
+        }
+        else if (soort == "bakje") {
+            ijs.bakjes++;
         }else {
             alert("Sorry, dat snap ik niet...");
         }
+    return soort;
     }
 }
 
