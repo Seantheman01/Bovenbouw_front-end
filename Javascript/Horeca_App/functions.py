@@ -38,4 +38,3 @@ def serveer_ijs(bolletjes, keuze):
             return False
         else:
             print("sorry, dat snap ik niet")
-            print("")
