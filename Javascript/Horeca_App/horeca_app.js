@@ -7,17 +7,18 @@ function aantal_bolletjes() {
         let aantal = parseInt(prompt("Hoeveel bolletjes wilt u?"));
         if (aantal >= 1 && aantal <= 3) {
             ijs.bolletjes += aantal;
+            return aantal;
         }
         else if (aantal >= 4 && aantal <= 8) {
             alert("Dan krijgt u van mij een bakje met " + aantal + " bolletjes.");
             ijs.bolletjes += aantal;
+            return aantal;
         }
         else if (aantal > 8) {
             alert("Sorry, zulke grote bakken hebben we niet.");
         }else {
             alert("Sorry, dat snap ik niet...");
         }
-    return aantal;
     }
 }
 
@@ -26,13 +27,14 @@ function hoorn_of_bak(aantal) {
         let soort = prompt("Wilt u deze " + aantal + " bolletje(s) in een hoorntje of een bakje?");
         if (soort == "hoorntje") {
             ijs.hoorntjes++;
+            return soort;
         }
         else if (soort == "bakje") {
             ijs.bakjes++;
+            return soort;
         }else {
             alert("Sorry, dat snap ik niet...");
         }
-    return soort;
     }
 }
 
@@ -45,6 +47,7 @@ function meer_bestellen(soort, aantal) {
         }
         else if (opnieuw == "nee") {
             alert("Bedankt en tot ziens!");
+            console.log(ijs);
             break;
         }else {
             alert("Sorry, dat snap ik niet...");
