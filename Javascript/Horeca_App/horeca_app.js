@@ -12,7 +12,7 @@ function aantal_bolletjes() {
         else if (aantal >= 4 && aantal <= 8) {
             alert("Dan krijgt u van mij een bakje met " + aantal + " bolletjes.");
             ijs.bolletjes += aantal;
-            ijs.hoorntjes++;
+            ijs.bakjes++;
             return aantal;
         }
         else if (aantal > 8) {
