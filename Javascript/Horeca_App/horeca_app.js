@@ -40,8 +40,8 @@ function hoorn_of_bak(aantal) {
 }
 
 function meer_bestellen(soort, aantal) {
+    alert("Hier is uw " + soort + " met " + aantal + " bolletje(s).");
     while (true) {
-        alert("Hier is uw " + soort + " met " + aantal + " bolletje(s).");
         let opnieuw = prompt("Wilt u nog meer bestellen?");
         if (opnieuw == "ja") {
             return opnieuw;
