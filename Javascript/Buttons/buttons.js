@@ -10,6 +10,18 @@ button3 = document.createElement("button");
 button3.textContent = "Button 3";
 container.appendChild(button3);
 
-button1.style.backgroundColor = "red";
-button2.style.backgroundColor = "green";
+button1.style.backgroundColor = "green";
+button2.style.backgroundColor = "red";
 button3.style.backgroundColor = "blue";
+
+button1.addEventListener("click", function() {
+    document.body.style.backgroundColor = "green";
+});
+
+button2.addEventListener("click", function() {
+    document.body.style.backgroundColor = "red";
+});
+
+button3.addEventListener("click", function() {
+    document.body.style.backgroundColor = "blue";
+});
