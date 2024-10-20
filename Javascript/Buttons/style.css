@@ -4,6 +4,8 @@
     background-color: white;
     padding: 20px;
     gap: 5px;
+    max-width: 350px;
+    margin: 0 auto;
 }
 
 button {
