@@ -8,3 +8,9 @@
     width: fit-content;
     margin: auto;
 }
+
+button {
+    /* color: green; */
+    width: 80px;
+    height: 45px;
+}
