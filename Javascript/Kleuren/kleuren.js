@@ -1,8 +1,8 @@
 let aantal_buttons = 30;
 
-let kleur1 = prompt("Welke kleur word de eerste knop? (in Engels)");
-let kleur2 = prompt("Welke kleur word de tweede knop? (in Engels)");
-let kleur3 = prompt("Welke kleur word de derde knop? (in Engels)");
+let kleur1 = prompt("Welke kleur word de eerste knop? (moet in Engels)");
+let kleur2 = prompt("Welke kleur word de tweede knop? (moet in Engels)");
+let kleur3 = prompt("Welke kleur word de derde knop? (moet in Engels)");
 
 for (let i = 0; i < aantal_buttons; i++) {
     let button = document.createElement("button");
